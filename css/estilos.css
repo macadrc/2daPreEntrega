@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:auto;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.header{
+    background-color: transparent;
+}
+
+
+.navbar-light .navbar-nav .linkNegro{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content:center;
+}
+
+.principal{
+    background-image: url(../assets/img/fondo.jpg);
+    background-size:auto;
+    background-repeat:repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.centrar{
+    text-align: center;
+}
+.fuenteGrande{
+    font-size: 30px;
+}
+.fuenteMediana{
+    font-size: 22px;
+}
+#idColorFondo{
+    background-color: rgba(78, 148, 66, 0.938);
+}
+.colorFondo{
+    background-color: #cd7b087b;
+}
+
+main div{
+    background-color: rgba(211, 138, 2, 0.49);
+}
+
+div{
+    background-color: rgba(56, 102, 73, 0.877);
+}
+.seccionMain .colorVerde{
+    background-color: rgba(173, 210, 184, 0.819);
+}
+.centrar fuenteGrande{
+    font-size:  3rem;
+}
+.centrar{
+    color: rgb(212, 225, 237);
+}
